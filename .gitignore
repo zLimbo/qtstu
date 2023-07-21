@@ -3,7 +3,6 @@
 *
 !*.*
 !*/
-!.*
 
 *.cache
 *.o
@@ -18,7 +17,6 @@
 /output
 /test/output
 build/
-
 
 # Ignore hidden files
 .*
@@ -49,5 +47,11 @@ CTestTestfile.cmake
 /test/recordio_ref.io
 
 *.tar.*
-!.clang-format
+
+target/
+
 !.gitignore
+!.clangd
+!.clang-format
+!.clang-tidy
+!.vscode
